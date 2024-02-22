@@ -61,9 +61,9 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 * The cherry plantation at Farmy & Foods faces a challenge with powdery mildew affecting their cherry trees. Currently, manual inspection takes around 30 minutes per tree, with an additional minute for applying treatment if needed. With thousands of trees across multiple farms, this process is not scalable. To address this, the IT team proposed implementing an ML system to instantly detect powdery mildew in cherry tree images. If successful, this approach could be extended to other crops. The dataset comprises cherry leaf images provided by Farmy & Foods.
 
-# Business Objectives:
-
+# Business Requirement number 1:
 * Conduct a study to visually differentiate healthy cherry leaves from those with powdery mildew.
+# Business Requirement number 2:
 * Predict whether a cherry tree is healthy or afflicted with powdery mildew.
 
 # Client Benefits:
@@ -139,17 +139,28 @@ For further details, refer to the following sources:
   ** Predict whether a cherry tree is healthy or afflicted with powdery mildew.
 
 # Page 2: Leaf Visualiser 
-* A page listing your findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew
 
-# Page 3: A page containing: 
-* A link to download a set of cherry leaf images for live prediction (you may use the Kaggle repository that was provided to you).
-* A User Interface with a file uploader widget. The user should have the capacity to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
-* A table with the image name and prediction results, and a download button to download the table.
+* Answering Business requirement 1 : Conduct a study to visually differentiate healthy cherry leaves from those with powdery mildew.
+    ** Checkbox 1 - Difference between average and variability image
+    ** Checkbox 2 - Differences between average infected and average uninfected leaves.
+    ** Checkbox 3 - Image Montage
+
+# Page 3: Powdery Mildew Detector: 
+
+* Answering Business requirement 2 : Predict whether a leaf is infected with powdery mildew or not. 
+    ** The analysis strategy involves developing a binary classifier and generating comprehensive reports to fulfill this objective.
+    ** We provide a link to download a dataset comprising images of leaves containing fungal infections and uninfected leaves for real-time prediction.
+    ** The user interface features a file uploader widget enabling users to upload multiple leaf images. Upon upload, the interface displays each image alongside a prediction statement indicating whether the plant is infected with powdery mildew and the associated probability.
+    ** A table is presented showcasing the image names and corresponding prediction results for reference.
+    ** Additionally, users have the option to download the table for further analysis using the provided download button.
 
 # Page 4: A page indicating your project hypothesis and how you validated it across the project.
 
-# Page 5: A technical page displaying your model performance.
+# Page 5: ML Performance Metrics: 
 
+* Label Frequencies for Train, Validation and Test Sets
+* Model History - Accuracy and Losses
+* Model evaluation result
 
 
 ## Unfixed Bugs
