@@ -66,6 +66,14 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 * Conduct a study to visually differentiate healthy cherry leaves from those with powdery mildew.
 * Predict whether a cherry tree is healthy or afflicted with powdery mildew.
 
+# Client Benefits:
+* Automated Mildew Detection: The ML model will automatically diagnose mildew presence in cherry leaves.
+Reduced Manual Work: Manual disease diagnosis processes will be significantly streamlined, saving time and resources.
+Early Disease Detection: Early detection of mildew allows for timely treatment, preventing further spread and damage.
+# Client Goals:
+* Faster Testing Results: Expedite the process of obtaining disease test results.
+* Reduced Manual Workload: Minimize manual effort required for diagnosing mildew infection.
+* Mildew Mitigation: Prevent the spread and recurrence of mildew infection in cherry trees.
 
 ## Hypothesis and how to validate?
 * Hypothesis: 
@@ -73,16 +81,75 @@ Plants affected by fungal infestation, specifically powdery mildew, exhibit dist
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+
+* The project will follow the ML lifecycle, encompassing the following stages:
+  ** Information Gathering & Data Collection: Gather and understand relevant data from the client.
+  ** Data Visualization, Cleaning & Preparation: Preprocess and prepare the data for model training.
+  ** Model Training, Validation & Optimization: Train, validate, and refine the ML model for optimal performance.
+  ** Dashboard Planning, Design & Development: Design and develop the user interface for the dashboard.
+  ** Dashboard Deployment & Release: Deploy and release the final solution to the client.
+
+# Business Requirement 1: Data Visualization
+
+* The dashboard will showcase "mean" and "standard deviation" images for both infected and uninfected leaves. 
+* It will also illustrate the disparity between an average infected leaf and a healthy one. 
+* Additionally, the dashboard will feature an image montage highlighting either infected or uninfected leaves.
 
 
-## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+# Business Requirement 2: Classification
+
+* Our objective is to predict whether a leaf is infected with powdery mildew or not. To achieve this, we aim to develop a binary classifier and generate comprehensive reports.
+
+# ML Business Case: Powdery Mildew Classification
+
+Our aim is to develop a machine learning model capable of accurately predicting whether a leaf is infected with Powdery Mildew or not, using historical image data. This supervised model is designed as a binary classifier, distinguishing between infected and uninfected leaves.
+
+The ultimate goal is to provide Farmy & Foods with a rapid and dependable diagnostic tool for identifying Powdery Mildew-infected leaves. The success of the model will be measured against a minimum accuracy threshold of 97% on the test set.
+
+The model's output will consist of a binary flag indicating the presence or absence of Powdery Mildew, along with the associated probability of infection. To streamline the process, employees will capture leaf images manually and upload them to the application, enabling real-time predictions rather than batch processing.
+
+Currently, the manual diagnostic process is time-consuming, with employees spending up to 30 minutes per plant to identify signs of infestation. Additionally, applying treatment to infected leaves consumes an additional minute. Human error in visual criteria assessment further adds to the risk of inaccurate diagnostics. With thousands of cherry trees spread across multiple farms, scalability becomes a significant concern.
+
+The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as the foundation for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves] contains over 4,000 images, with a subset of XXX images selected for expedited model training.
+
+Train data: Target - infected or not; Features - all leaf images.
 
 
-## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-* Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+## Dashboard Design (Streamlit App User Interface)
+# Page 1: Project Overview
+
+* General Information:
+  **Powdery Mildew, a common fungus, affects a wide array of plants, manifesting as light grey or white powdery spots primarily on leaves but also on stems, flowers, fruits, and vegetables. The spread of these spots progressively covers most leaves, particularly impacting new plant growth.
+
+  **While seldom fatal, unchecked powdery mildew can inflict serious harm by depriving plants of water and nutrients. Typical effects include yellowing, withering, or distortion of leaves, along with weakened growth, reduced blooming, and slower development.
+
+  **Currently, manual inspection of each tree requires approximately 30 minutes, with an additional minute per tree for treatment application if necessary. This process, given the multitude of trees across various farms, lacks scalability. To address this, the IT team proposed implementing a machine learning (ML) system for instant powdery mildew detection in cherry tree images, with potential application to other crops if successful.
+
+* Project Dataset:
+  ** The dataset, comprising cherry leaf images provided by Farmy & Foods, forms the basis for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves], consists of over 4,000 images, with a subset of XXX images chosen for expedited model training.
+
+* Additional Information:
+For further details, refer to the following sources:
+
+  ** Wikipedia: [https://en.wikipedia.org/wiki/Powdery_mildew]
+  ** Additional Sources: [https://portal.ct.gov/CAES/Fact-Sheets/Plant-Pathology/Powdery-Mildew#:~:text=Powdery%20mildews%20are%20easily%20recognized,chains%20of%20spores%20(conidia)]
+
+* Business Requirements:
+  ** Conduct a study to visually differentiate healthy cherry leaves from those with powdery mildew.
+  ** Predict whether a cherry tree is healthy or afflicted with powdery mildew.
+
+# Page 2: Leaf Visualiser 
+* A page listing your findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew
+
+# Page 3: A page containing: 
+* A link to download a set of cherry leaf images for live prediction (you may use the Kaggle repository that was provided to you).
+* A User Interface with a file uploader widget. The user should have the capacity to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
+* A table with the image name and prediction results, and a download button to download the table.
+
+# Page 4: A page indicating your project hypothesis and how you validated it across the project.
+
+# Page 5: A technical page displaying your model performance.
+
 
 
 ## Unfixed Bugs
@@ -127,3 +194,7 @@ Plants affected by fungal infestation, specifically powdery mildew, exhibit dist
 
 ## Acknowledgements (optional)
 * Thank the people that provided support throughout this project.
+
+
+## References 
+* https://www.gardendesign.com/how-to/powdery-mildew.html#:~:text=Powdery%20mildew%20is%20a%20common,%2C%20flowers%2C%20fruit%20or%20vegetables.
