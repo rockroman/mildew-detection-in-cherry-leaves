@@ -209,3 +209,4 @@ For further details, refer to the following sources:
 
 ## References 
 * https://www.gardendesign.com/how-to/powdery-mildew.html#:~:text=Powdery%20mildew%20is%20a%20common,%2C%20flowers%2C%20fruit%20or%20vegetables.
+* [Cmap colors](https://matplotlib.org/stable/gallery/color/colormap_reference.html)
