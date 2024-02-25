@@ -211,3 +211,5 @@ For further details, refer to the following sources:
 * https://www.gardendesign.com/how-to/powdery-mildew.html#:~:text=Powdery%20mildew%20is%20a%20common,%2C%20flowers%2C%20fruit%20or%20vegetables.
 * [Cmap colors](https://matplotlib.org/stable/gallery/color/colormap_reference.html)
 *[Train,ValidationandTest](https://www.v7labs.com/blog/train-validation-test-set#h2)
+*[DirectoryError](https://stackoverflow.com/questions/52338706/isadirectoryerror-errno-21-is-a-directory-it-is-a-file)
+*[SplitingDataSet](https://towardsdatascience.com/how-to-split-a-dataset-into-training-and-testing-sets-b146b1649830#:~:text=The%20simplest%20way%20to%20split,the%20performance%20of%20our%20model.)
