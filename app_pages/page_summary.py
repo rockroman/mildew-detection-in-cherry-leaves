@@ -28,7 +28,7 @@ def page_summary_body():
 
     st.write(
         f'*If additional information is needed, please visit and **read** the'
-        f'[Project README file]'(https://github.com/FerchaPombo/mildew-detection-in-cherry-leaves/blob/main/README.md)
+        f'[Project README file]'()#add. link to readme file 
     )
 
     st.success(
@@ -44,5 +44,4 @@ def page_summary_body():
         f'forms the basis for model training and evaluation. This dataset, sourced '
         f'from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves], consists'
         f'of over 4,000 images, with a subset of XXX images chosen for expedited model training.'
-'
     )

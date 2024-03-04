@@ -1,6 +1,6 @@
 #business logic to contro data operations 
 import streamlit as streamlit
-from app_pages.multipage import multipage
+from app_pages.multipage import MultiPage
 
 # load the pages scripts
 from app_pages.page_summary import page_summary_body

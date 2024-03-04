@@ -2,7 +2,7 @@ import streamlit as st
 
 #This class generates a multiple page dashboard using (OOP)
 
-class MultiPage;
+class MultiPage:
 
     def __init__(self,app_name)-> None :
         self.pages=[]
