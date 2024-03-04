@@ -32,7 +32,7 @@ def plot_predictions_probabilities(pred_proba, pred_class):
     st.plotly_chart(fig)
 #used to rezise the shape of the shape of the input image to the average image size of 129x129 px.abs
 #we load the average images from the embedded pickle file we cretated
-def rezise_input_image(img, version):
+def resize_input_image(img, version):
     image_shape = load_model(f'outputs/{version}/image_shape.pkl')
     img_resized = img.img_resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
     my_image = np.expand_dims(img_resized, axis=0)/255
