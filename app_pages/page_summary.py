@@ -28,7 +28,9 @@ def page_summary_body():
 
     st.write(
         f'*If additional information is needed, please visit and **read** the'
-        f'[Project README file]'()#add. link to readme file 
+        f'[Project README file]'#add. link to readme file 
+        f'* Wikipedia: [https://en.wikipedia.org/wiki/Powdery_mildew]'
+        f'* Additional Sources: [https://portal.ct.gov/CAES/Fact-Sheets/Plant-Pathology/Powdery-Mildew#:~:text=Powdery%20mildews%20are%20easily%20recognized,chains%20of%20spores%20(conidia)]'
     )
 
     st.success(
