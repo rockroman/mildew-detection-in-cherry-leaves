@@ -25,16 +25,17 @@ def plot_predictions_probabilities(pred_proba, pred_class):
     fig = px.bar(
         prob_per_class,
         x = 'Diagnostic',
-        y = prob_per_class['Probabiity'],
+        y = prob_per_class['Probability'],
         range_y=[0,1],
         width=600, height=300, template='seaborn'
     )
-    st.plotly_chart(fig)
+    st.plotly_chart(fig) #function used to plot the image onthe dashboard
+
 #used to rezise the shape of the shape of the input image to the average image size of 129x129 px.abs
 #we load the average images from the embedded pickle file we cretated
 def resize_input_image(img, version):
-    image_shape = load_model(f'outputs/{version}/image_shape.pkl')
-    img_resized = img.img_resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
+    image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
+    img_resized = img.resize((image_shape[1], image_shape[0]),Image.LANCZOS)# change method to match compatibility 
     my_image = np.expand_dims(img_resized, axis=0)/255
 
     return my_image
