@@ -1,3 +1,6 @@
 # Ignore .jpg files for deployment 
 *.jpg
+*.tmp
+/test
+*.backup
 
