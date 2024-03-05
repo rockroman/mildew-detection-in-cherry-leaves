@@ -8,3 +8,6 @@
 *.pdf
 *.zip
 README.md
+/inputs/cherry_leaves/cherry-leaves/train/*
+/documentation
+/inputs/cherry_leaves/cherry-leaves/test/*
