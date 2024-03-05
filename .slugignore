@@ -1,2 +1,2 @@
 # Ignore .jpg files for deployment 
-*.jpg
+.jpg
