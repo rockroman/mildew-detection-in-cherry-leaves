@@ -221,3 +221,6 @@ For further details, refer to the following sources:
 * [Image type](https://subscription.packtpub.com/book/data/9781789343731/1/ch01lvl1sec15/dealing-with-different-image-types-and-file-formats-and-performing-basic-image-manipulations)
 * [Load Model](https://www.tensorflow.org/tutorials/keras/save_and_load)
 * [st.file_uploader()](https://docs.streamlit.io/library/api-reference/widgets/st.file_uploader)
+* [Heroku-20](https://devcenter.heroku.com/articles/heroku-20-stack)
+* [Clear Cache](https://pip.pypa.io/en/stable/cli/pip_cache/)
+* [Git Clean](https://git-scm.com/docs/git-clean)
