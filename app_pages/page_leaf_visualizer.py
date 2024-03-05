@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as numpy
 import seaborn as sns 
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import imread
 
 import itertools 
 import random 
@@ -22,7 +23,7 @@ def page_leaf_visualizer_body():
     # displaying the embedded plots created in the notebooks.
     if st.checkbox('Difference between average and variability image'):
 
-        av_powdery_mildew = plt.imread(f'outputs,{version}/avg_var_powdery_mildew.png')
+        av_powdery_mildew = plt.imread('outputs/v1/avg_var_powdery_mildew.png')
         av_healthy = plt.imread(f'outputs/{version}/avg_var_healthy.png')
         
         #check texts based on outputs further on the development of the app.
@@ -77,15 +78,15 @@ def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15,10)):
 
         # Create a list of axes indeices based on nrows and ncols
         list_rows = range(0,nrows)
-        list_cols = rande(0,ncols)
+        list_cols = range(0,ncols)
         plot_idx = list(itertools.product(list_rows,list_cols))
 
         #create the figure for this plot and display the images 
 
-        fig, axes = plt.subplot(nrows= nrows, ncols= ncols, figsize= figsize)
+        fig, axes = plt.subplots(nrows=nrows,ncols=ncols, figsize=figsize)
         for x in range(0,nrows*ncols):
             img = imread(dir_path + '/' + label_to_display + '/' + img_idx[x])
-            img_shape = img_shape
+            img_shape = img.shape
             axes[plot_idx[x][0], plot_idx[x][1]].imshow(img)
             axes[plot_idx[x][0], plot_idx[x][1]].set_title(f"Width {img_shape[1]}px x Height {img_shape[0]}px")
             axes[plot_idx[x][0], plot_idx[x][1]].set_xticks([])

@@ -215,3 +215,6 @@ For further details, refer to the following sources:
 * [SplitingDataSet](https://towardsdatascience.com/how-to-split-a-dataset-into-training-and-testing-sets-b146b1649830#:~:text=The%20simplest%20way%20to%20split,the%20performance%20of%20our%20model.)
 * [seabornScatterplot](https://towardsdatascience.com/7-points-to-create-better-scatter-plots-with-seaborn-9f0202fb2ba4)
 * [Base64](https://www.cybrosys.com/blog/base64-encoding-and-decoding-using-python#:~:text=A%20built%2Din%20module%20in,string%20of%20printable%20ASCII%20characters.)
+* [Subplots](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html)
+* [imread()](https://www.askpython.com/python-modules/python-imread-opencv)(https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imread.html)
+* [LocalVariable](https://careerkarma.com/blog/python-local-variable-referenced-before-assignment/)
