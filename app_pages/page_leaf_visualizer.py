@@ -13,10 +13,9 @@ import random
 #through the options to display , and what happens when each option is selected 
 
 def page_leaf_visualizer_body():
-    st.write('### Cells Visualizer')
+    st.write('### Leaf Visualizer')
     st.info(
-        f'As a business requirement, the client is interested to have a study to visually differentiate'
-        f'a fungal-infected leaf and a healthy one.')
+        f'As a business requirement, we conducted a study to visually differentiate fungal infected leaves from healthy ones')
 
     version = 'v1'
     #When this option is chosen,if compares the difference between average and variability in the dataset
@@ -28,9 +27,9 @@ def page_leaf_visualizer_body():
         
         #check texts based on outputs further on the development of the app.
         st.warning(
-            f'* We noticed the average and variability images did not show'
-            f'any patterns where we could intuitively differentiate one to another.'
-            f'However, a small difference in color and texture of the average images is seen for both labels'
+            f'We observed subtle patterns in both average and variability images, allowing for intuitive '
+            f'differentiation between infected and healthy samples. Notably, fungal-infected leaf samples '
+            f'exhibited slight texture variation in the average images.'
         )
 
         st.image(av_powdery_mildew, caption='Fungal-infected leaf - Average Variability')
@@ -41,8 +40,7 @@ def page_leaf_visualizer_body():
             diff_between_avgs = plt.imread(f'outputs/{version}/avg_diff.png')
 
             st.warning(
-                f'* We notice this study did not show patterns where we could intuitively '
-                f'differentiate one to another.')
+                f'* This study reveals subtle differences in patterns, enabling intuitive differentiation between samples.')
             st.image(diff_between_avgs, caption='Difference between average images')
         # Creates an image montage of random images from the Validation set for gallery display 
         if st.checkbox('Image Montage'):

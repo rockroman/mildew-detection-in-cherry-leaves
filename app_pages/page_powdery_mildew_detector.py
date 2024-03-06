@@ -14,7 +14,8 @@ from src.machine_learning.predictive_analysis import (
 
 def page_powdery_mildew_detector_body():
     st.info(
-        f'Client is interested to know if a given leaf is fungal-infected with Powdery Mildew or not'
+        f'As part of the *business requirement 2*, the client is interested to know if a given '
+        f'leaf sample image, is fungal-infected with Powdery Mildew or not'
         )
 
     st.write(
