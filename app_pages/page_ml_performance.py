@@ -23,7 +23,7 @@ def page_ml_performance_metrics():
         st.image(model_acc, caption='Model Training Accuracy')
 
     with col2:
-        model_loss = plt.imread('outputs/{version}/model_training_losses.png')# this one is still not rendered 
+        model_loss = plt.imread('outputs/v1/model_training_losses.png')# this one is still not rendered 
         st.image(model_loss, caption="Model Training Losses")
         st.write('---')
 
