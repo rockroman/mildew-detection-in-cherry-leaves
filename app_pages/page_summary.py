@@ -5,25 +5,27 @@ import matplotlib as plt
 
 def page_summary_body():
 
-    st.write('###Project Summary')
+    st.write('## Project Summary')
+    st.write('### General Information ')
 
     st.info(
 
-        f'**General Information**\n'
-        f'*Powdery Mildew is a common fungus, that affects a wide array of plants,'
+        f'Powdery Mildew is a common fungus, that affects a wide array of plants,'
         f'manifesting as light grey or white powdery spots primarily on leaves but'
         f'also on stems, flowers, fruits, and vegetables. The spread of these spots'
-        f'progressively covers most leaves, particularly impacting new plant growth.\n'
-        f'*While seldomly fatal, unchecked powdery mildew can inflict serious harm '
+        f'progressively covers most leaves, particularly impacting new plant growth.'
+        f''
+        f'While seldomly fatal, unchecked powdery mildew can inflict serious harm '
         f'by depriving plants of water and nutrients. Typical effects include '
         f'yellowing, withering, or distortion of leaves, along with weakened growth,'
-        f'reduced blooming, and slower development.\n'
-        f'*Currently, manual inspection of each tree requires approximately 30 minutes,'
+        f'reduced blooming, and slower development.'
+        f''
+        f'Currently, manual inspection of each tree requires approximately 30 minutes,'
         f' with an additional minute per tree for treatment application if necessary.'
         f'This process, given the multitude of trees across various farms, lacks scalability.'
         f'To address this, the IT team proposed implementing a machine learning (ML) system '
         f'for instant powdery mildew detection in cherry tree images, with potential '
-        f'application to other crops if successful.\n'
+        f'application to other crops if successful.'
     )
 
     st.write(
