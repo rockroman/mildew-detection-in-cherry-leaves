@@ -8,19 +8,18 @@ def page_summary_body():
     st.write('## Project Summary')
     st.write('### General Information ')
 
-    st.info(
+   
+    st.markdown(
 
         f'Powdery Mildew is a common fungus, that affects a wide array of plants,'
         f'manifesting as light grey or white powdery spots primarily on leaves but'
         f'also on stems, flowers, fruits, and vegetables. The spread of these spots'
         f'progressively covers most leaves, particularly impacting new plant growth.'
-        f''
-        f''
+        f''        
         f'While seldomly fatal, unchecked powdery mildew can inflict serious harm '
         f'by depriving plants of water and nutrients. Typical effects include '
         f'yellowing, withering, or distortion of leaves, along with weakened growth,'
         f'reduced blooming, and slower development.'
-        f''
         f''
         f'Currently, manual inspection of each tree requires approximately 30 minutes,'
         f' with an additional minute per tree for treatment application if necessary.'
