@@ -7,6 +7,7 @@ def page_summary_body():
 
     st.write('## Project Summary')
     st.write('### General Information ')
+    st.write('#### Powdery Mildew on Cherry Trees')
     
 
    
@@ -24,11 +25,11 @@ def page_summary_body():
         f'reduced blooming, and slower development.\n\n'
 
 
-        f'Currently, manual inspection of each tree requires approximately 30 minutes,'
+        f'Currently, manual inspection of each **cherry tree** requires approximately 30 minutes,'
         f' with an additional minute per tree for treatment application if necessary.'
         f'This process, given the multitude of trees across various farms, lacks scalability.'
         f'To address this, the IT team proposed implementing a machine learning (ML) system '
-        f'for instant powdery mildew detection in cherry tree images, with potential '
+        f'for instant powdery mildew detection in **cherry tree** images, with potential '
         f'application to other crops if successful.\n\n'
     )
 
