@@ -224,3 +224,4 @@ For further details, refer to the following sources:
 * [Heroku-20](https://devcenter.heroku.com/articles/heroku-20-stack)
 * [Clear Cache](https://pip.pypa.io/en/stable/cli/pip_cache/)
 * [Git Clean](https://git-scm.com/docs/git-clean)
+* [Image Resize](https://cloudinary.com/guides/bulk-image-resize/python-image-resize-with-pillow-and-opencv)
