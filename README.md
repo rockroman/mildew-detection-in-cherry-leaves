@@ -178,29 +178,29 @@ plants from healthy, uninfected ones.'
 
 ### Languages Used:
 
-[Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Editors and source control: 
-[Github](https://github.com/about) - Online storage of code.
-[Jupyter Notebooks](https://jupyter.org/about) - Editor notebooks 
+* [Github](https://github.com/about) - Online storage of code.
+* [Jupyter Notebooks](https://jupyter.org/about) - Editor notebooks 
 
 ### Dashboard or API:
-[Streamlit](https://streamlit.io/) - Used to create the Dashboard 
+* [Streamlit](https://streamlit.io/) - Used to create the Dashboard 
 
 ### Programs Used: 
 
-[Gitpod](https://www.gitpod.io/about) - IDE used to develop the code.
-[Heroku](https://www.heroku.com/about) - Cloud-based platform used to deploy the site.
+* [Gitpod](https://www.gitpod.io/about) - IDE used to develop the code.
+* [Heroku](https://www.heroku.com/about) - Cloud-based platform used to deploy the site.
 
 ### Data Analytics Packages:
 
-[NumPy](https://numpy.org/about/) - Numerical computing with Python
-[Pandas](https://pandas.pydata.org/about/) - Fro creating, using and manipulating DataFrames ans Series
-[Matplotlib](https://matplotlib.org/stable/) - Ploting charts 
-[SciPy](https://scipy.org/) - Providing algorithms for optimization 
-[Seaborn](https://seaborn.pydata.org/index.html) - Statistical data visualisation 
-[TensorFlow](https://www.tensorflow.org/about) n- ML models 
-[Scikitlearn](https://scikit-learn.org/stable/about.html) - Machine learning in python
+* [NumPy](https://numpy.org/about/) - Numerical computing with Python
+* [Pandas](https://pandas.pydata.org/about/) - Fro creating, using and manipulating DataFrames ans Series
+* [Matplotlib](https://matplotlib.org/stable/) - Ploting charts 
+* [SciPy](https://scipy.org/) - Providing algorithms for optimization 
+* [Seaborn](https://seaborn.pydata.org/index.html) - Statistical data visualisation 
+* [TensorFlow](https://www.tensorflow.org/about) n- ML models 
+* [Scikitlearn](https://scikit-learn.org/stable/about.html) - Machine learning in python
 
 ### Installed Packages: 
 * numpy==1.19.2
@@ -226,7 +226,6 @@ All content used for the project came from the school material and some internet
 ## Content 
 
 - The template used was from Code Institute learning material
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 
 ---
@@ -238,7 +237,7 @@ Gratitude to myself for persevering and learning almost independently, with guid
 
 ---
 ## References 
-* https://www.gardendesign.com/how-to/powdery-mildew.html#:~:text=Powdery%20mildew%20is%20a%20common,%2C%20flowers%2C%20fruit%20or%20vegetables.
+* [Powdery Mildew](https://www.gardendesign.com/how-to/powdery-mildew.html#:~:text=Powdery%20mildew%20is%20a%20common,%2C%20flowers%2C%20fruit%20or%20vegetables.)
 * [Cmap colors](https://matplotlib.org/stable/gallery/color/colormap_reference.html)
 * [Train,ValidationandTest](https://www.v7labs.com/blog/train-validation-test-set#h2)
 * [DirectoryError](https://stackoverflow.com/questions/52338706/isadirectoryerror-errno-21-is-a-directory-it-is-a-file)
