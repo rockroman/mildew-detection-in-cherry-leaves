@@ -138,7 +138,7 @@ grey or white powdery spots. By conducting an average image study, we aim
 to investigate whether these visual markers reliably differentiate infected 
 plants from healthy, uninfected ones.'
 
-# Page 5: ML Performance Metrics: 
+## Page 5: ML Performance Metrics: 
 
 * Label Frequencies for Train, Validation and Test Sets
 * Model History - Accuracy and Losses
