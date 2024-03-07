@@ -14,10 +14,10 @@ def page_summary_body():
     st.write(
 
         f'Powdery Mildew is a common fungus, that affects a wide array of plants,'
-        f'manifesting as light grey or white powdery spots primarily on leaves but'
-        f'also on stems, flowers, fruits, and vegetables. The spread of these spots'
+        f'manifesting as light grey or white powdery spots primarily on leaves but '
+        f'also on stems, flowers, fruits, and vegetables. The spread of these spots '
         f'progressively covers most leaves, particularly impacting new plant growth.\n\n'
-#Arrange how to make spaces in paragraphs
+
 
         f'While seldomly fatal, unchecked powdery mildew can inflict serious harm '
         f'by depriving plants of water and nutrients. Typical effects include '
