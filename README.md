@@ -175,31 +175,66 @@ plants from healthy, uninfected ones.'
 
 ---
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+
+### Languages Used:
+
+[Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+### Editors and source control: 
+[Github](https://github.com/about) - Online storage of code.
+[Jupyter Notebooks](https://jupyter.org/about) - Editor notebooks 
+
+### Dashboard or API:
+[Streamlit](https://streamlit.io/) - Used to create the Dashboard 
+
+### Programs Used: 
+
+[Gitpod](https://www.gitpod.io/about) - IDE used to develop the code.
+[Heroku](https://www.heroku.com/about) - Cloud-based platform used to deploy the site.
+
+### Data Analytics Packages:
+
+[NumPy](https://numpy.org/about/) - Numerical computing with Python
+[Pandas](https://pandas.pydata.org/about/) - Fro creating, using and manipulating DataFrames ans Series
+[Matplotlib](https://matplotlib.org/stable/) - Ploting charts 
+[SciPy](https://scipy.org/) - Providing algorithms for optimization 
+[Seaborn](https://seaborn.pydata.org/index.html) - Statistical data visualisation 
+[TensorFlow](https://www.tensorflow.org/about) n- ML models 
+[Scikitlearn](https://scikit-learn.org/stable/about.html) - Machine learning in python
+
+### Installed Packages: 
+* numpy==1.19.2
+* pandas==1.1.2
+* matplotlib==3.3.1
+* seaborn==0.11.0
+* plotly==4.12.0
+
+* streamlit==0.85.0
+
+* scikit-learn==0.24.2
+* tensorflow-cpu==2.6.0
+* keras==2.6.0
+* protobuf==3.20
+* altair<5
 
 ---
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+All content used for the project came from the school material and some internet forums stated under *Reference* section.
 
 ---
 ## Content 
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
+- The template used was from Code Institute learning material
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
----
-## Media
-
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
-
 
 ---
-## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+## Acknowledgements:
+
+Special thanks to Bianca, my partner, for their unwavering support and assistance in taking care of our child throughout the duration of this project.
+
+Gratitude to myself for persevering and learning almost independently, with guidance from accelerated screencasts, during this period of development.
 
 ---
 ## References 
