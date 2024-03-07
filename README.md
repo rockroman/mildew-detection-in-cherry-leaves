@@ -148,20 +148,30 @@ plants from healthy, uninfected ones.'
 
 ---
 ## Deployment
+### Heroku Deployment Steps:
 
----
-## Heroku
+1. Log in to your Heroku account or sign up if you don't have one.
+2. Click the "New" button at the top right corner and choose "Create New App".
+3. Provide a unique name for your application.
+4. Select your preferred region.
+5. Click "Create App".
+6. Ensure that the chosen name aligns with your project's name.
+7. Navigate to the deploy tab on Heroku and connect to your GitHub repository.
+8. Select your repository name and click Search. Once it is found, click Connect.
+9. Scroll down to the bottom of the deploy page.
+10. To log into the Heroku toolbelt CLI:
+ * In the terminal, run heroku_config
+ * Paste in your API key when asked
+ * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported 
+   version.
+11. Come back to heroku 
+12. Choose between enabling Automatic Deploys for automatic updates or manually deploying by clicking "Deploy Branch". Note: Manually deployed branches require redeployment whenever the GitHub repository is updated.
+13. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
+14. Click 'Open App' to view your deployed live site.
+* **Your site is now live and accessible.**
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
+* The App live link is:  
 
-1. Log in to Heroku and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
 
 ---
 ## Main Data Analysis and Machine Learning Libraries
