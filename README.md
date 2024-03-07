@@ -247,7 +247,7 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [seaborn Scatterplot](https://towardsdatascience.com/7-points-to-create-better-scatter-plots-with-seaborn-9f0202fb2ba4)
 * [Base64](https://www.cybrosys.com/blog/base64-encoding-and-decoding-using-python#:~:text=A%20built%2Din%20module%20in,string%20of%20printable%20ASCII%20characters.)
 * [Subplots](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html)
-* [imread](https://www.askpython.com/python-modules/python-imread-opencv)(https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.imread.html)
+* [imread](https://www.askpython.com/python-modules/python-imread-opencv)
 * [Local Variable](https://careerkarma.com/blog/python-local-variable-referenced-before-assignment/)
 * [Image type](https://subscription.packtpub.com/book/data/9781789343731/1/ch01lvl1sec15/dealing-with-different-image-types-and-file-formats-and-performing-basic-image-manipulations)
 * [Load Model](https://www.tensorflow.org/tutorials/keras/save_and_load)
