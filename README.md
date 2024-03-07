@@ -11,6 +11,8 @@ While seldomly fatal, unchecked powdery mildew can inflict serious harm by depri
 
 Currently, manual inspection takes around 30 minutes per tree, with an additional minute for applying treatment if needed. With thousands of trees across multiple farms, this process is not scalable. To address this, the IT team proposed implementing an ML system to instantly detect powdery mildew in cherry tree images. If successful, this approach could be extended to other crops. The dataset comprises cherry leaf images provided by Farmy & Foods.
 
+* The App live link is:  [Powdery Mildew Detector](https://powdery-mildew-detector-fp-c8dd417a4db2.herokuapp.com/)
+
 ### Client Goals:
 * Faster Testing Results: Expedite the process of obtaining disease test results.
 
@@ -170,7 +172,7 @@ plants from healthy, uninfected ones.'
 14. Click 'Open App' to view your deployed live site.
 * **Your site is now live and accessible.**
 
-* The App live link is:  
+* The App live link is:  [Powdery Mildew Detector](https://powdery-mildew-detector-fp-c8dd417a4db2.herokuapp.com/)
 
 
 ---
