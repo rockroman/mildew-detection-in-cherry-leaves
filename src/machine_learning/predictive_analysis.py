@@ -55,7 +55,7 @@ def load_model_and_predict(my_image, version):
 
     st.write(
         f'The predictive analysis indicates the leaf image is '
-        f'**{pred_class.lower()}** with Powderly Mildew.'
+        f'**{pred_class.lower()}** from Powderly Mildew.'
     )
 
     return pred_proba, pred_class

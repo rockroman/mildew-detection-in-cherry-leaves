@@ -76,6 +76,7 @@ Train data: Target - infected or not; Features - all leaf images.
 
 ---
 ## Dashboard Design (Streamlit App User Interface)
+---
 ### Page 1: Project Overview
 
 #### General Information:
@@ -97,6 +98,7 @@ For further details, refer to the following sources:
 
 * [Wikipedia:](https://en.wikipedia.org/wiki/Powdery_mildew)
 * [Additional Sources:](https://portal.ct.gov/CAES/Fact-Sheets/Plant-Pathology/Powdery-Mildew#:~:text=Powdery%20mildews%20are%20easily%20recognized,chains%20of%20spores%20(conidia))
+
 
 
 ## Page 2: Leaf Visualiser 
@@ -134,8 +136,8 @@ plants from healthy, uninfected ones.'
 * Model evaluation result
 
 ---
-## Unfixed Bugs
-* You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+## Bugs
+* 
 
 ---
 ## Deployment
@@ -202,3 +204,4 @@ plants from healthy, uninfected ones.'
 * [Git Clean](https://git-scm.com/docs/git-clean)
 * [Image Resize](https://cloudinary.com/guides/bulk-image-resize/python-image-resize-with-pillow-and-opencv)
 * [Links StreamLit](https://towardsdatascience.com/how-to-use-streamlits-st-write-function-to-improve-your-streamlit-dashboard-1586333eb24d)
+* [Markup General](https://github.github.com/gfm/#images)
