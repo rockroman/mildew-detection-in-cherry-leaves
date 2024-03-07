@@ -144,6 +144,7 @@ plants from healthy, uninfected ones.'
 * Model evaluation result
 
 ![Page 5](/assets/images/page5.jpg)
+
 ---
 ## Bugs
 * 
