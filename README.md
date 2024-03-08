@@ -77,6 +77,26 @@ The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as 
 Train data: Target - infected or not; Features - all leaf images.
 
 ---
+## User Stories 
+#### Template : 
+As a **'role'** , I can **'Capability'**, so I can **"recieved benefit"**.
+
+| As a…           | I can ..                 | so that…                                     |
+| --------------- |------------------------- |---------------------------------------       |
+| Plant inspector | open the Dashboard       | I can view the ML project.                   |
+| Plant inspector | access the dataset       | I can revise  its contents.                  |
+| Plant inspector | click on the nav buttons | I can navigate the pages.                    |
+| Plant inspector | click on the check box   | I can create an image montage of the dataset.|
+| Plant inspector | click on the check box   | I can view different comparison analyses between healthy and infected leaves.|
+| Plant inspector | select different labels on the detector page  | so that the model gives me a a prediction. |
+| Plant inspector | upload an image of a leaf sample  | the Ml model gives me a prediction. |
+| Data Practitioner | acces view the ML details page | I can have deep insight on how the ML model was created. |
+| Data Practitioner| review the Metric performance | I can provide better insights to the client. |
+
+
+
+
+---
 ## Dashboard Design (Streamlit App User Interface)
 ---
 ### Page 1: Project Overview
