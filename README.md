@@ -121,7 +121,7 @@ For further details, refer to the following sources:
 * [Wikipedia:](https://en.wikipedia.org/wiki/Powdery_mildew)
 * [Additional Sources:](https://portal.ct.gov/CAES/Fact-Sheets/Plant-Pathology/Powdery-Mildew#:~:text=Powdery%20mildews%20are%20easily%20recognized,chains%20of%20spores%20(conidia))
 
-![Page 1](/images/Page1.jpg)
+![Page 1](/workspace/mildew-detection-in-cherry-leaves/images/Page1.jpg)
 
 ## Page 2: Leaf Visualiser 
 
@@ -130,7 +130,7 @@ For further details, refer to the following sources:
   * Checkbox 2 - Differences between average infected and average uninfected leaves.
   * Checkbox 3 - Image Montage
 
-![Page 2](images/Page2.jpg)
+![Page 2](/workspace/mildew-detection-in-cherry-leaves/images/Page2.jpg)
 
 ## Page 3: Powdery Mildew Detector: 
 
@@ -144,7 +144,7 @@ The user interface features a file uploader widget enabling users to upload mult
 A table is presented showcasing the image names and corresponding prediction results for reference.
 Additionally, users have the option to download the table for further analysis using the provided download button.
 
-![Page 3](images/Page3.jpg)
+![Page 3](/workspace/mildew-detection-in-cherry-leaves/images/Page3.jpg)
 
 ## Page 4: Hypothesis and Validation:
 ### Hypothesis :
@@ -155,7 +155,7 @@ grey or white powdery spots. By conducting an average image study, we aim
 to investigate whether these visual markers reliably differentiate infected 
 plants from healthy, uninfected ones.'
 
-![Page 4](images/Page4.jpg)
+![Page 4](/workspace/mildew-detection-in-cherry-leaves/images/Page4.jpg)
 
 ## Page 5: ML Performance Metrics: 
 
@@ -163,7 +163,7 @@ plants from healthy, uninfected ones.'
 * Model History - Accuracy and Losses
 * Model evaluation result
 
-![Page 5](images/page5.jpg)
+![Page 5](/workspace/mildew-detection-in-cherry-leaves/images/page5.jpg)
 
 ---
 ## Bugs
