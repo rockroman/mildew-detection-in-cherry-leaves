@@ -8,8 +8,13 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 from src.data_management import load_pkl_file 
 
-# plot_predictions_probabilities function plots the probabilistic result of any image as infected or not infected using a bargraoh using hte plotly package  which pltos the probability  per class healthy and fungal-infected and using plotly_chart to render the plot in the dashboard
+
 def plot_predictions_probabilities(pred_proba, pred_class):
+    '''
+    Plots the probabilistic result of any image as 'infected' and 'healthy' with a bar-graph
+    We use plotly package, which pltos the probability  per class healthy and fungal-infected.
+    Using plotly_chart to render the plot in the dashboard
+    '''
 
     prob_per_class= pd.DataFrame(
         data=[0,0],

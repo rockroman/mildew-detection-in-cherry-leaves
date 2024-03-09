@@ -24,7 +24,7 @@ def page_powdery_mildew_detector_body():
     )
 
     st.write('---')
-    #to upload images from the view and set it to upload multiple and allowed image type as jpg image file
+    #to upload images from the view and set it to upload multiple and allowed image type as '.jpg'  and '.png'image file formats.
     images_buffer = st.file_uploader('Upload leaf images. You may select more than one.', type=['png', 'jpg'], accept_multiple_files=True)
 
     if images_buffer is not None:
@@ -34,16 +34,16 @@ def page_powdery_mildew_detector_body():
             img_pil = (Image.open(image))
             st.info(f'Leaf image sample: **{image.name}**')
             img_array = np.array(img_pil)
-            #st.image function to display a pil image onthe view and passing the image through the 3 functions to resize,predict,and plot proba
+            #st.image function to display a pil image onthe view and passing the image through the 3 functions to resize,predict,and plot proba.
             st.image(img_pil, caption=f"Image Size: {img_array.shape[1]}px width x {img_array.shape[0]}px height")
 
             version = 'v1'
-            #functions to pass the image throug
+            #Revises the functions the images have to pass through 
             resized_img = resize_input_image(img=img_pil, version=version)
             pred_proba, pred_class = load_model_and_predict(resized_img, version= version)
             plot_predictions_probabilities(pred_proba, pred_class)
 
-            #creating a report with predictions and displaying this report on a table over the page
+            #Create a report with the predictions  and display the results in a table
             df_report = df_report.append({'Name': image.name, "Result": pred_class},
                                         ignore_index=True)
 

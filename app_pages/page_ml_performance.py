@@ -4,10 +4,13 @@ import pandas as pd
 from matplotlib.image import imread
 from src.machine_learning.evaluate_clf import load_test_evaluation
 
-#create function to render  the perfromance metrics of the ML model 
 
 def page_ml_performance_metrics():
     version = 'v1'
+    '''
+    Function that renders the performance metrics of the ML model,
+    v1
+    '''
 
     st.write('### Train, Validation and Test Set: Labels Frequencies')
 
@@ -23,7 +26,7 @@ def page_ml_performance_metrics():
         st.image(model_acc, caption='Model Training Accuracy')
 
     with col2:
-        model_loss = plt.imread('outputs/v1/model_training_losses.png')# this one is still not rendered 
+        model_loss = plt.imread('outputs/v1/model_training_losses.png')
         st.image(model_loss, caption="Model Training Losses")
         st.write('---')
 
