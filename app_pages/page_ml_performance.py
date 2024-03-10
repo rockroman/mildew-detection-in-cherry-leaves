@@ -43,8 +43,8 @@ def page_ml_performance_metrics():
     
 
     
-    st.write('### Generalized Performamce on Test Set')
-    st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
+    
+
 
     st.write('### General analysis of Accuracy and Loss')
 
@@ -64,6 +64,15 @@ def page_ml_performance_metrics():
         f'Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward '
         f'trend in accuracy and the downward trend in loss.\n\n'
         f'The close alignment between training and validation metrics suggests that the model generalizes *well* to unseen data.'
+    )
+
+    st.write('### Generalized Performamce on Test Set')
+    st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
+
+    st.info(
+        f'These values suggest that the model has achieved a very low loss and a high accuracy, which is indicative of excellent performance. '
+        f"A loss value of 0.0218 indicates that the model's predictions are very close to the actual values on average, while an accuracy of "
+        f'0.9905 implies that the model correctly predicts the class labels for approximately 99.05% of the data points.'
     )
 
     
