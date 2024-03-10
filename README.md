@@ -121,7 +121,7 @@ For further details, refer to the following sources:
 * [Wikipedia:](https://en.wikipedia.org/wiki/Powdery_mildew)
 * [Additional Sources:](https://portal.ct.gov/CAES/Fact-Sheets/Plant-Pathology/Powdery-Mildew#:~:text=Powdery%20mildews%20are%20easily%20recognized,chains%20of%20spores%20(conidia))
 
-![Page 1](/workspace/mildew-detection-in-cherry-leaves/images/Page1.jpg)
+![Page 1](page1.jpg)
 
 ## Page 2: Leaf Visualiser 
 
