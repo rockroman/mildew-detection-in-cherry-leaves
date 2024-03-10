@@ -285,3 +285,5 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [Incorrect Label](https://datascience.stackexchange.com/questions/98206/how-to-correct-mislabeled-data-in-training-validation-and-test-set)
 * [Model Performance](https://machinelearningmastery.com/different-results-each-time-in-machine-learning/)
 * [Model Performance](https://www.linkedin.com/advice/3/how-can-you-improve-neural-network-performance-xkrxe#:~:text=Adjusting%20the%20number%20of%20epochs%20in%20a%20neural%20network%20training,the%20right%20balance%20is%20crucial.)
+* [Loss and Acurracy](https://www.baeldung.com/cs/ml-loss-accuracy)
+* [Learning Curve](https://www.baeldung.com/cs/learning-curve-ml)
