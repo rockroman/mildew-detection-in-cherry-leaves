@@ -283,3 +283,5 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [Image Upload to ReadME](https://www.educative.io/answers/adding-images-to-readmemd-in-github)
 * [Incorrect Label](https://datascience.stackexchange.com/questions/115836/flipping-the-labels-in-a-binary-classification-gives-different-model-and-results)
 * [Incorrect Label](https://datascience.stackexchange.com/questions/98206/how-to-correct-mislabeled-data-in-training-validation-and-test-set)
+* [Model Performance](https://machinelearningmastery.com/different-results-each-time-in-machine-learning/)
+* [Model Performance](https://www.linkedin.com/advice/3/how-can-you-improve-neural-network-performance-xkrxe#:~:text=Adjusting%20the%20number%20of%20epochs%20in%20a%20neural%20network%20training,the%20right%20balance%20is%20crucial.)
