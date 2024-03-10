@@ -281,3 +281,5 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [Links StreamLit](https://towardsdatascience.com/how-to-use-streamlits-st-write-function-to-improve-your-streamlit-dashboard-1586333eb24d)
 * [Markup General](https://github.github.com/gfm/#images)
 * [Image Upload to ReadME](https://www.educative.io/answers/adding-images-to-readmemd-in-github)
+* [Incorrect Label](https://datascience.stackexchange.com/questions/115836/flipping-the-labels-in-a-binary-classification-gives-different-model-and-results)
+* [Incorrect Label](https://datascience.stackexchange.com/questions/98206/how-to-correct-mislabeled-data-in-training-validation-and-test-set)
