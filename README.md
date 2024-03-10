@@ -78,6 +78,7 @@ Train data: Target - infected or not; Features - all leaf images.
 
 ---
 ## User Stories 
+
 #### Template : 
 As a **'role'** , I can **'Capability'**, so I can **"recieved benefit"**.
 
@@ -93,7 +94,7 @@ As a **'role'** , I can **'Capability'**, so I can **"recieved benefit"**.
 | Data Practitioner | access the Jupyter Notebooks | I can have a deep insight on how the model was created. |
 | Data Practitioner| review the Metric Performance Page| I can provide with better insights to the client. |
 
-
+[Github Project](https://github.com/users/FerchaPombo/projects/3)
 
 
 ---
