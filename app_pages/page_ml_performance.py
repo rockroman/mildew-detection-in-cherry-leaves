@@ -130,3 +130,4 @@ def page_ml_performance_metrics():
     f'Overall, learning curves provide valuable insights into the training process and the performance of machine learning models, '
     f'aiding in model evaluation and optimization.'
     )
+

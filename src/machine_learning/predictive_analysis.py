@@ -1,5 +1,5 @@
 
-#st.write function  writes a statement for every image  on the view for its predicted labels 
+# st.write function  writes a statement for every image  on the view for its predicted labels 
 import streamlit as st 
 import numpy as np 
 import pandas as pd 
@@ -10,6 +10,7 @@ from src.data_management import load_pkl_file
 
 
 def plot_predictions_probabilities(pred_proba, pred_class):
+
     '''
     Plots the probabilistic result of any image as 'infected' and 'healthy' with a bar-graph
     We use plotly package, which pltos the probability  per class healthy and fungal-infected.
@@ -36,8 +37,9 @@ def plot_predictions_probabilities(pred_proba, pred_class):
     )
     st.plotly_chart(fig) #function used to plot the image onthe dashboard
 
-#used to rezise the shape of the shape of the input image to the average image size of 129x129 px.abs
-#we load the average images from the embedded pickle file we cretated
+# used to rezise the shape of the shape of the input image to the average image size of 129x129 px.abs
+# we load the average images from the embedded pickle file we cretated
+
 def resize_input_image(img, version):
     image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
     img_resized = img.resize((image_shape[1], image_shape[0]),Image.LANCZOS)# change method to match compatibility 
@@ -45,8 +47,9 @@ def resize_input_image(img, version):
 
     return my_image
 
-#3rd function: load_model_and_predict function loads the trained ML model and predicts the live image data. function predicts a value between 0 and 1 and maps it with its key as a fungal contained leaf or a healthy one, it also calculates the prediction  probability value 
-#for both the classes and the returns  it into the view along with the predicted class label 
+# 3rd function: load_model_and_predict function loads the trained ML model and predicts the live image data. function predicts a value between 0 and 1 and maps it with its key as a fungal contained leaf or a healthy one, it also calculates the prediction  probability value 
+# for both the classes and the returns  it into the view along with the predicted class label
+
 def load_model_and_predict(my_image, version):
     
     model = load_model(f'outputs/{version}/powdery_mildew_detector_model.h5')
@@ -64,3 +67,4 @@ def load_model_and_predict(my_image, version):
     )
 
     return pred_proba, pred_class
+

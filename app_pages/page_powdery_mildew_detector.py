@@ -28,7 +28,7 @@ def page_powdery_mildew_detector_body():
     images_buffer = st.file_uploader('Upload leaf images. You may select more than one.', type=['png', 'jpg'], accept_multiple_files=True)
 
     if images_buffer is not None:
-        df_report = pd.DataFrame ([])
+        df_report = pd.DataFrame([])
         for image in images_buffer:
             
             img_pil = (Image.open(image))
@@ -40,7 +40,7 @@ def page_powdery_mildew_detector_body():
             version = 'v1'
             #Revises the functions the images have to pass through 
             resized_img = resize_input_image(img=img_pil, version=version)
-            pred_proba, pred_class = load_model_and_predict(resized_img, version= version)
+            pred_proba, pred_class = load_model_and_predict(resized_img, version=version)
             plot_predictions_probabilities(pred_proba, pred_class)
 
             #Create a report with the predictions  and display the results in a table

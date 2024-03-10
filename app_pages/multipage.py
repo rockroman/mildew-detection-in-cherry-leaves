@@ -1,11 +1,12 @@
-import streamlit as st 
+import streamlit as st
 
-#This class generates a multiple page dashboard using (OOP)
+# This class generates a multiple page dashboard using (OOP)
+
 
 class MultiPage:
 
-    def __init__(self,app_name)-> None :
-        self.pages=[]
+    def __init__(self, app_name) -> None:
+        self.pages = []
         self.app_name = app_name
 
         st.set_page_config(
@@ -19,3 +20,4 @@ class MultiPage:
         st.title(self.app_name)
         page = st.sidebar.radio('Menu', self.pages, format_func=lambda page: page['title'])
         page['function']()
+# page checked 

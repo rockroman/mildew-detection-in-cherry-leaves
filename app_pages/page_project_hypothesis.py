@@ -1,7 +1,8 @@
 import streamlit as st 
 import matplotlib.pyplot as plt
 
-# Plan project Hypotesis visualization page 
+# Plan project Hypotesis visualization page
+
 def page_project_hypothesis_body():
     st.write('## Hypothesis and Validation')
     st.write('### Hypothesis:')

@@ -1,4 +1,4 @@
-#business logic to contro data operations 
+# business logic to contro data operations 
 import streamlit as streamlit
 from app_pages.multipage import MultiPage
 
@@ -19,4 +19,4 @@ app.add_page("Powdery Mildew Detection", page_powdery_mildew_detector_body)
 app.add_page("Project Hypothesis", page_project_hypothesis_body)
 app.add_page("ML Performance Metrics", page_ml_performance_metrics)
 
-app.run() #run the app 
+app.run() # run the app
