@@ -12,14 +12,24 @@ def page_ml_performance_metrics():
     v1
     '''
 
-    st.write('### Train, Validation and Test Set: Labels Frequencies')
+    st.write('## Train, Validation and Test Set: Labels Frequencies\n\n')
+    st.write(
+        f'Dataset was divided into 3 subsets: \n\n'
+        f'* Training Set: comprises 70% of the data.\n'
+        f'* Test Set: comprises 10% of the data.\n'
+        f'* Validation Set: comprises 20% of the data. \n'
+    )
+    st.write(
+        f"Labels were divided in : *'healthy'* and *'fungal-infected*"
+
+    )
    
     labels_distribution = plt.imread(f'outputs/{version}/labels_distribution.png')
     st.image(labels_distribution, caption='Model Training Acurracy')
     st.write("---")
 
 
-    st.write('### Model History')
+    st.write('## Model History')
     col1, col2 = st.beta_columns(2)
     with col1:
         model_acc = plt.imread('outputs/v1/model_training_acc.png')
@@ -30,11 +40,13 @@ def page_ml_performance_metrics():
         st.image(model_loss, caption="Model Training Losses")
         st.write('---')
 
+    
 
-
-
+    
     st.write('### Generalized Performamce on Test Set')
     st.dataframe(pd.DataFrame(load_test_evaluation(version), index=['Loss', 'Accuracy']))
+
+    st.write('### General analysis of Accuracy and Loss')
 
     
     st.write(
