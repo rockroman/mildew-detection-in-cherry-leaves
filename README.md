@@ -165,11 +165,7 @@ plants from healthy, uninfected ones.'
 * Model evaluation result
 
 ![Page 5](/workspace/mildew-detection-in-cherry-leaves/images/page5.jpg)
-
----
-## Bugs
-* 
-
+ 
 ---
 ## Deployment
 ### Heroku Deployment Steps:
@@ -195,6 +191,9 @@ plants from healthy, uninfected ones.'
 * **Your site is now live and accessible.**
 
 * The App live link is:  [Powdery Mildew Detector](https://powdery-mildew-detector-fp-c8dd417a4db2.herokuapp.com/)
+
+---
+## Testing 
 
 
 ---
@@ -240,6 +239,11 @@ plants from healthy, uninfected ones.'
 * keras==2.6.0
 * protobuf==3.20
 * altair<5
+---
+
+## Unresolved Bugs 
+* All known bugs have been addressed. However, an ongoing concern revolves around the continuous deprecation of machine learning (ML) packages.
+* Installing and maintaining the correct versions of ML packages has been challenging, as different versions often require compatibility adjustments. 
 
 ---
 ## Credits 
