@@ -87,11 +87,11 @@ As a **'role'** , I can **'Capability'**, so I can **"recieved benefit"**.
 | Plant inspector | access the dataset       | I can revise  its contents.                  |
 | Plant inspector | click on the nav buttons | I can navigate the pages.                    |
 | Plant inspector | click on the check box   | I can create an image montage of the dataset.|
-| Plant inspector | click on the check box   | I can view different comparison analyses between healthy and infected leaves.|
-| Plant inspector | select different labels on the detector page  | so that the model gives me a a prediction. |
+| Plant inspector | click on the check box   | I can view different comparison analyses between healthy and fungal-infected leaves.|
+| Plant inspector | select different labels on the Leaf Visualizer page | I can create an image montage of the healthy and the fungal-infected leaves. |
 | Plant inspector | upload an image of a leaf sample  | the Ml model gives me a prediction. |
-| Data Practitioner | acces view the ML details page | I can have deep insight on how the ML model was created. |
-| Data Practitioner| review the Metric performance | I can provide better insights to the client. |
+| Data Practitioner | access the Jupyter Notebooks | I can have a deep insight on how the model was created. |
+| Data Practitioner| review the Metric Performance Page| I can provide with better insights to the client. |
 
 
 
@@ -280,3 +280,4 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [Image Resize](https://cloudinary.com/guides/bulk-image-resize/python-image-resize-with-pillow-and-opencv)
 * [Links StreamLit](https://towardsdatascience.com/how-to-use-streamlits-st-write-function-to-improve-your-streamlit-dashboard-1586333eb24d)
 * [Markup General](https://github.github.com/gfm/#images)
+* [Image Upload to ReadME](https://www.educative.io/answers/adding-images-to-readmemd-in-github)
