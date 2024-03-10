@@ -194,7 +194,10 @@ plants from healthy, uninfected ones.'
 
 ---
 ## Testing 
-
+* The application underwent iterative development and was continuously tested throughout its development process. 
+* All Python files underwent scrutiny using the CI linter Python checker.[CI](https://pep8ci.herokuapp.com/)
+* Deployed app was tested on browsers like GoogleCrome, Firefox and Safari without issues.
+* The small-screen dashboard on Android operated incorreclty, not loading the cover image. 
 
 ---
 ## Main Data Analysis and Machine Learning Libraries
@@ -249,6 +252,8 @@ plants from healthy, uninfected ones.'
 ## Credits 
 
 All content used for the project came from the school material and some internet forums stated under *Reference* section.
+Thanks to fellow students in the slack chanel who read me, and specially A-Hoenig, who shared me their project when i was lost [here](https://github.com/A-Hoenig/student-AI)
+
 
 ---
 ## Content 
