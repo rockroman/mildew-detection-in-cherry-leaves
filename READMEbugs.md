@@ -26,7 +26,7 @@ Dont remember how it was fixed !
 
 ##### 4
 
-1[File not found](assets/images/bugsandfixes/couldntfindfileinpagevisualizer.png)
+![File not found](assets/images/bugsandfixes/couldntfindfileinpagevisualizer.png)
 
 #### 5
 
