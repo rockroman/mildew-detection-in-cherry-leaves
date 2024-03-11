@@ -16,7 +16,7 @@ import random
 def page_leaf_visualizer_body():
     st.write('### Leaf Visualizer')
     st.info(
-        f'As a business requirement, we conducted a study to visually differentiate fungal infected leaves from healthy ones')
+        f'As part of fulfilling a business requirement, we conducted a study aimed at visually distinguishing fungal-infected leaves from healthy ones.')
 
     version = 'v1'
     # When this option is chosen,if compares the difference between average and variability in the dataset

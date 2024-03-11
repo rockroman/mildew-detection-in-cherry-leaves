@@ -47,9 +47,26 @@ The cherry plantation at Farmy & Foods faces a challenge with powdery mildew aff
 
 ---
 ## Hypothesis and how to validate?
-### Hypothesis: 
 
-Plants affected by fungal infestation, specifically powdery mildew, exhibit distinct visual characteristics on their leaves, such as light grey or white powdery spots. By conducting an average image study, we aim to investigate whether these visual markers reliably differentiate infected plants from healthy, uninfected ones.
+### Hypothesis:
+
+Plants affected by fungal infestation, specifically powdery mildew, exhibit distinct visual characteristics on their leaves, such as light grey or white powdery spots.
+
+### Validation Approach:
+
+We will validate this hypothesis by conducting an average image study following research on the disease. Our aim is to determine if these visual markers effectively distinguish between infected and healthy plants. The specific mathematical approach will be determined by our understanding of the problem and the differences between mathematical functions utilized to address such problems.
+
+### Introduction:
+
+It is suspected that cherry leaves affected by powdery mildew exhibit distinct markings on the leaf surface, along with variations in texture. These distinctive features must be effectively translated for the machine learning (ML) model to adequately learn from the dataset and undergo proper training.
+When handling an image dataset, such as this one, it must undergo several preprocessing methods before being fed into the model.
+Normalizing the images is crucial as it enables the neural network to produce consistent results with new test images. Additionally, normalization extracts essential pixel features from the images, aiding the model in distinguishing between different classes, which aligns with our goal in this binary classification model.
+
+### Observation :
+
+After multiple evaluations of the model's performance on both the training and validation sets, it can be concluded that the model is operating with a high level of accuracy as anticipated. Overfitting of the model was minimal. Several epochs (training cycles) were tested until achieving low levels of loss and high levels of accuracy. The model accuracy lines generally trend upwards over time, indicating improvement with each epoch. Although the lines do not perfectly overlap, they stay close throughout the chart, with minor fluctuations. Notably, there are two instances where the lines touch or come close to each other: once around the middle of the chart and again at the last point. In terms of loss, the training and validation loss lines show a descending trend over time, suggesting that the model's loss decreases with each epoch. Similar to the accuracy chart, the loss lines mirror each other closely, indicating consistent behavior between the training and validation sets. Towards the end of the chart, the loss lines follow the same path, with one on top of the other, suggesting minimal difference between training and validation loss at those points. Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward trend in accuracy and the downward trend in loss. The close alignment between training and validation metrics suggests that the model generalizes well to unseen data.
+
+
 
 ## Business Requirement 1: Data Visualization
 
@@ -153,9 +170,12 @@ Additionally, users have the option to download the table for further analysis u
 
 Plants affected by fungal infestation, specifically powdery mildew,
 exhibit distinct visual characteristics on their leaves, such as light
-grey or white powdery spots. By conducting an average image study, we aim
-to investigate whether these visual markers reliably differentiate infected 
-plants from healthy, uninfected ones.'
+grey or white powdery spots. 
+
+### How to validate it: 
+
+By conducting an average image study, we aim to investigate whether these visual markers 
+reliably differentiate infected plants from healthy, uninfected ones.'
 
 ![Page 4](/workspace/mildew-detection-in-cherry-leaves/Page4.jpg)
 
