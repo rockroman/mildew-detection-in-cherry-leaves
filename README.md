@@ -142,7 +142,9 @@ After multiple evaluations of the model's performance on both the training and v
 
 Several epochs (training cycles) were tested until achieving low levels of loss and high levels of accuracy. The model accuracy lines generally trend upwards over time, indicating improvement with each epoch. Although the lines do not perfectly overlap, they stay close throughout the chart, with minor fluctuations. Notably, there are two instances where the lines touch or come close to each other: once around the middle of the chart and again at the last point.
 
-In terms of loss, the training and validation loss lines show a descending trend over time, suggesting that the model's loss decreases with each epoch. Similar to the accuracy chart, the loss lines mirror each other closely, indicating consistent behavior between the training and validation sets. Towards the end of the chart, the loss lines follow the same path, with one on top of the other, suggesting minimal difference between training and validation loss at those points. Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward trend in accuracy and the downward trend in loss. The close alignment between training and validation metrics suggests that the model generalizes well to unseen data.
+In terms of loss, the training and validation loss lines show a descending trend over time, suggesting that the model's loss decreases with each epoch. Similar to the accuracy chart, the loss lines mirror each other closely, indicating consistent behavior between the training and validation sets. Towards the end of the chart, the loss lines follow the same path, with one on top of the other, suggesting minimal difference between training and validation loss at those points. 
+
+Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward trend in accuracy and the downward trend in loss. The close alignment between training and validation metrics suggests that the model generalizes well to unseen data.
 
 ---
 ## Business Requirement 1: Data Visualization
