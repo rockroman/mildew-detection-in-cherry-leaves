@@ -64,8 +64,8 @@ Normalizing the images is crucial as it enables the neural network to produce co
 
 ### Observations :
 Image montage shows the diference between healthy and fungal-infected leaves
-![](assets/images/readmeimages/healthyimagemontage.jpg)
-![](/workspace/mildew-detection-in-cherry-leaves/assets/images/readmeimages/fungalinfectedimagemontage.png)
+![healthy](assets/images/readmeimages/healthyimagemontage.jpg)
+![fungal-infected](/workspace/mildew-detection-in-cherry-leaves/assets/images/readmeimages/fungalinfectedimagemontage.png)
 
 After multiple evaluations of the model's performance on both the training and validation sets, it can be concluded that the model is operating with a high level of accuracy as anticipated.
 **Overfitting of the model was minimal.**
