@@ -65,7 +65,7 @@ Normalizing the images is crucial as it enables the neural network to produce co
 ### Observations :
 Image montage shows the diference between healthy and fungal-infected leaves
 
-![healthy](/assets/images/readmeimages/healthyimagemontage.jpg)
+![healthy](/assets/images/readmeimages/healthyimagemontage.png)
 
 ![fungal-infected](/assets/images/readmeimages/fungalinfectedimagemontage.png)
 
