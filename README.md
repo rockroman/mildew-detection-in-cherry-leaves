@@ -127,11 +127,11 @@ Preventive measures, including early stopping, were employed to mitigate the ris
 
 ### Observations : 
 * Model trained with 25 Epochs: 
-![25 Epochs](assets/images/25epochs.png)
+![25 Epochs](/assets/images/readmeimages/25epochs.png)
 * Model trained with 30 Epochs:
-![30 Epochs](assets/images/30epochs.png)
+![30 Epochs](/assets/images/readmeimages/30epochs.png)
 * Model trained with 20 Epochs:
-![@0 Epochs](assets/images/20epochs.png)
+![20 Epochs](/assets/images/readmeimages/20epochs.png)
 
 
 ## Conclusions:
