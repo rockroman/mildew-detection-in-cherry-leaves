@@ -66,34 +66,15 @@ Normalizing the images is crucial as it enables the neural network to produce co
 Image montage shows the diference between healthy and fungal-infected leaves
 
 ![healthy](/assets/images/readmeimages/healthyimagemontage.png)
-
 ![fungal-infected](/assets/images/readmeimages/fungalinfectedimagemontage.png)
 
-The difference between average and variability images shows that fungal-infected leaves have more blurry white lines in the center
+The difference between average and variability images shows that fungal-infected leaves have more blurry white lines in the center.
 
 ![Average Fungal-infected](assets/images/readmeimages/avrimagecomparisonfungalinfected.png)
 ![Average Healthy](assets/images/readmeimages/averagevarhealthy.png)
 
-
-
-
-After multiple evaluations of the model's performance on both the training and validation sets, it can be concluded that the model is operating with a high level of accuracy as anticipated.
-**Overfitting of the model was minimal.**
-Several epochs (training cycles) were tested until achieving low levels of loss and high levels of accuracy. The model accuracy lines generally trend upwards over time, indicating improvement with each epoch. Although the lines do not perfectly overlap, they stay close throughout the chart, with minor fluctuations. Notably, there are two instances where the lines touch or come close to each other: once around the middle of the chart and again at the last point.
-In terms of loss, the training and validation loss lines show a descending trend over time, suggesting that the model's loss decreases with each epoch. Similar to the accuracy chart, the loss lines mirror each other closely, indicating consistent behavior between the training and validation sets. Towards the end of the chart, the loss lines follow the same path, with one on top of the other, suggesting minimal difference between training and validation loss at those points. Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward trend in accuracy and the downward trend in loss. The close alignment between training and validation metrics suggests that the model generalizes well to unseen data.
-
-
-
-## Business Requirement 1: Data Visualization
-
-* The dashboard will showcase "mean" and "standard deviation" images for both infected and uninfected leaves. 
-* It will also illustrate the disparity between an average infected leaf and a healthy one. 
-* Additionally, the dashboard will feature an image montage highlighting either infected or uninfected leaves.
-
-
-## Business Requirement 2: Classification
-
-Our objective is to predict whether a leaf is infected with powdery mildew or not. To achieve this, we aim to develop a binary classifier and generate comprehensive reports.
+The difference between  average fungal-infected and average healty shows slight difference in texture and white blurry lines over the leaf.
+![Healthy vs Infected](assets/images/readmeimages/avdiferencebetweenboth.png)
 
 ## ML Business Case: Powdery Mildew Classification
 
@@ -108,6 +89,68 @@ Currently, the manual diagnostic process is time-consuming, with employees spend
 The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as the foundation for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves] contains over 4,000 images, with a subset of XXX images selected for expedited model training.
 
 Train data: Target - infected or not; Features - all leaf images.
+
+A **Convolutional Neural Network** (CNN) model will be develop to analyze pre-labeled leaf images. The model will be trained to identify the dominant feature in the dataset, which in this case is the presence of fungal infection in the leaf images.
+* Model
+
+    * Deep Neural Networks  work with *Parameters* and *Hyperparameters* .
+    * Hyperparameters tune the model's parameters so that we can control the performance of the model.
+
+  * Notes on the Chosen Parameters and Activation Models:
+
+    * **Activation Function**:
+        * The activation function sets boundaries to the output values from the neuron. It is crucial in processing inputs to generate an output.
+    * **Adam (Adaptive Moment Estimation)**:
+        * Adam is an optimization algorithm that updates network weights iteratively based on training data. It has gained popularity due to its effectiveness and ability to achieve good results in shorter training times compared to other options.
+    * **Binary Crossentropy**:
+        * Binary cross-entropy is the standard loss function for binary classification problems where the target values are 0 and 1. It measures the divergence between predicted and actual class probabilities. The loss increases as the predicted probability diverges from the actual class, providing a summary score of the difference between predicted and actual distributions.
+    * **Binary Classification**:
+        * In binary classification, the output layer predicts two classes. Sigmoid activation function is commonly used for binary classification tasks. It yields a probability between 0 and 1, allowing for a threshold (typically 0.5) to determine class predictions. If the probability is below the threshold, the prediction is class 0; otherwise, it is class 1.
+
+### Evaluating Model Performance:
+
+A learning curve visually represents a model's learning progress over time or experience. It's a vital tool in machine learning for assessing algorithms trained incrementally on datasets. By plotting performance measures such as loss and accuracy on both training and validation datasets, learning curves help diagnose issues like underfitting or overfitting.
+
+Generally, a learning curve plots time or experience (epochs) on the x-axis against learning or improvement (loss/accuracy) on the y-axis. Here are some key terms:
+
+*Epoch*: A single pass of training data through the algorithm.
+*Loss*: A measure of the penalty for incorrect predictions. Lower loss indicates better performance.
+*Accuracy*: The fraction of correct predictions made by the model.
+
+A well-fitting model exhibits the following characteristics:
+
+1. The training loss curve stabilizes over time.
+2. The validation loss curve also stabilizes and remains close to the training loss curve.
+3. A minimal gap exists between the final loss/accuracy values of the training and validation datasets.
+
+Preventive measures, including early stopping, were employed to mitigate the risks of overfitting or underfitting the model.
+
+### Observations : 
+* Model trained with 25 Epochs: 
+![25 Epochs](assets/images/25epochs.png)
+* Model trained with 30 Epochs:
+![30 Epochs](assets/images/30epochs.png)
+* Model trained with 20 Epochs:
+![@0 Epochs](assets/images/20epochs.png)
+
+
+## Conclusions:
+After multiple evaluations of the model's performance on both the training and validation sets, it can be concluded that the model is operating with a high level of accuracy as anticipated.
+**Overfitting of the model was minimal.**
+Several epochs (training cycles) were tested until achieving low levels of loss and high levels of accuracy. The model accuracy lines generally trend upwards over time, indicating improvement with each epoch. Although the lines do not perfectly overlap, they stay close throughout the chart, with minor fluctuations. Notably, there are two instances where the lines touch or come close to each other: once around the middle of the chart and again at the last point.
+In terms of loss, the training and validation loss lines show a descending trend over time, suggesting that the model's loss decreases with each epoch. Similar to the accuracy chart, the loss lines mirror each other closely, indicating consistent behavior between the training and validation sets. Towards the end of the chart, the loss lines follow the same path, with one on top of the other, suggesting minimal difference between training and validation loss at those points. Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward trend in accuracy and the downward trend in loss. The close alignment between training and validation metrics suggests that the model generalizes well to unseen data.
+
+---
+## Business Requirement 1: Data Visualization
+
+* The dashboard will showcase "mean" and "standard deviation" images for both infected and uninfected leaves. 
+* It will also illustrate the disparity between an average infected leaf and a healthy one. 
+* Additionally, the dashboard will feature an image montage highlighting either infected or uninfected leaves.
+
+
+## Business Requirement 2: Classification
+
+Our objective is to predict whether a leaf is infected with powdery mildew or not. To achieve this, we aim to develop a binary classifier and generate comprehensive reports.
 
 ---
 ## User Stories 
