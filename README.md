@@ -69,6 +69,14 @@ Image montage shows the diference between healthy and fungal-infected leaves
 
 ![fungal-infected](/assets/images/readmeimages/fungalinfectedimagemontage.png)
 
+The difference between average and variability images shows that fungal-infected leaves have more blurry white lines in the center
+
+![Average Fungal-infected](assets/images/readmeimages/avrimagecomparisonfungalinfected.png)
+![Average Healthy](assets/images/readmeimages/averagevarhealthy.png)
+
+
+
+
 After multiple evaluations of the model's performance on both the training and validation sets, it can be concluded that the model is operating with a high level of accuracy as anticipated.
 **Overfitting of the model was minimal.**
 Several epochs (training cycles) were tested until achieving low levels of loss and high levels of accuracy. The model accuracy lines generally trend upwards over time, indicating improvement with each epoch. Although the lines do not perfectly overlap, they stay close throughout the chart, with minor fluctuations. Notably, there are two instances where the lines touch or come close to each other: once around the middle of the chart and again at the last point.

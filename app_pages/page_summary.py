@@ -5,7 +5,7 @@ import matplotlib as plt
 
 def page_summary_body():
 
-    st.image('assets/images/streamlitimages/cherryblossomcover.jpg')
+    st.image('assets/images/streamlitimages/cherryblossomcover.png')
     st.write('## Project Summary')
     st.write('### General Information ')
     st.write('#### Powdery Mildew on Cherry Trees')
