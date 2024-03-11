@@ -135,9 +135,13 @@ Preventive measures, including early stopping, were employed to mitigate the ris
 
 
 ## Conclusions:
+
 After multiple evaluations of the model's performance on both the training and validation sets, it can be concluded that the model is operating with a high level of accuracy as anticipated.
+
 **Overfitting of the model was minimal.**
+
 Several epochs (training cycles) were tested until achieving low levels of loss and high levels of accuracy. The model accuracy lines generally trend upwards over time, indicating improvement with each epoch. Although the lines do not perfectly overlap, they stay close throughout the chart, with minor fluctuations. Notably, there are two instances where the lines touch or come close to each other: once around the middle of the chart and again at the last point.
+
 In terms of loss, the training and validation loss lines show a descending trend over time, suggesting that the model's loss decreases with each epoch. Similar to the accuracy chart, the loss lines mirror each other closely, indicating consistent behavior between the training and validation sets. Towards the end of the chart, the loss lines follow the same path, with one on top of the other, suggesting minimal difference between training and validation loss at those points. Overall, both the accuracy and loss charts demonstrate that the model is learning effectively, as indicated by the upward trend in accuracy and the downward trend in loss. The close alignment between training and validation metrics suggests that the model generalizes well to unseen data.
 
 ---
@@ -186,8 +190,8 @@ While seldom fatal, unchecked powdery mildew can inflict serious harm by deprivi
 Currently, manual inspection of each tree requires approximately 30 minutes, with an additional minute per tree for treatment application if necessary. This process, given the multitude of trees across various farms, lacks scalability. To address this, the IT team proposed implementing a machine learning (ML) system for instant powdery mildew detection in cherry tree images, with potential application to other crops if successful.
 
 #### Business Requirements:
-  ** Conduct a study to visually differentiate healthy cherry leaves from those with powdery mildew.
-  ** Predict whether a cherry tree is healthy or afflicted with powdery mildew.
+  * Conduct a study to visually differentiate healthy cherry leaves from those with powdery mildew.
+  * Predict whether a cherry tree is healthy or afflicted with powdery mildew.
 
 #### Project Dataset:
 The dataset, comprising cherry leaf images provided by Farmy & Foods, forms the basis for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves], consists of over 4,000 images, with a subset of XXX images chosen for expedited model training.
@@ -277,7 +281,7 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 * The application underwent iterative development and was continuously tested throughout its development process. 
 * All Python files underwent scrutiny using the CI linter Python checker.[CI](https://pep8ci.herokuapp.com/)
 * Deployed app was tested on browsers like GoogleCrome, Firefox and Safari without issues.
-* The small-screen dashboard on Android operated incorreclty, not loading the cover image. 
+* Minor bugs were fixed iteratively. Find more [Here](/READMEbugs.md)
 
 ---
 ## Main Data Analysis and Machine Learning Libraries
