@@ -36,31 +36,32 @@ def page_leaf_visualizer_body():
         st.image(av_healthy, caption='Healthy Leaf - Average and Variability')
         st.write('---')
 
-        if st.checkbox('Differences between average fungal-infected and healthy leaves'):
-            diff_between_avgs = plt.imread(f'outputs/{version}/avg_diff.png')
+    if st.checkbox('Differences between average fungal-infected and healthy leaves'):
+        diff_between_avgs = plt.imread(f'outputs/{version}/avg_diff.png')
 
-            st.warning(
-                f'* This study reveals subtle differences in patterns, enabling intuitive differentiation between samples.')
-            st.image(diff_between_avgs, caption='Difference between average images')
-        # Creates an image montage of random images from the Validation set for gallery display
-        if st.checkbox('Image Montage'):
-            st.write(f'* To refresh the montage, click on "Create Montage" button')
-            my_data_dir = 'inputs/cherry-leaves_dataset/cherry-leaves'
-            labels = os.listdir(my_data_dir + '/validation')
-            label_to_display = st.selectbox(label='Select Label', options=labels, index=0)
-            if st.button("Create Montage"):
-                image_montage(dir_path=my_data_dir + '/validation',
-                                label_to_display=label_to_display,
-                                nrows=8, ncols=3, figsize=(10, 25))
-            st.write('---')
+        st.warning(
+            f'* This study reveals subtle differences in patterns, enabling intuitive differentiation between samples.')
+        st.image(diff_between_avgs, caption='Difference between average images')
+    
+    # Creates an image montage of random images from the Validation set for gallery display
+    if st.checkbox('Image Montage'):
+        st.write(f'* To refresh the montage, click on "Create Montage" button')
+        my_data_dir = 'inputs/cherry-leaves_dataset/cherry-leaves'
+        labels = os.listdir(my_data_dir + '/validation')
+        label_to_display = st.selectbox(label='Select Label', options=labels, index=0)
+        if st.button("Create Montage"):
+            image_montage(dir_path=my_data_dir + '/validation',
+                            label_to_display=label_to_display,
+                            nrows=8, ncols=3, figsize=(10, 25))
+        st.write('---')
 
-# create function to display the imges of the montage
+# function to display the imges of the montage
 
 def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15,10)):
     sns.set_style("dark")
     labels = os.listdir(dir_path)
 
-    # Indicate which class you are interested to display
+    # Indicates which class you are interested to display
     if label_to_display in labels:
         # function that checks how many images are there in the folder and if the space of your 
         # montsge is grater than the the subset size
