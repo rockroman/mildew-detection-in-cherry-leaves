@@ -335,7 +335,8 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 ## Credits 
 
 All content used for the project came from the school material and some internet forums stated under *Reference* section.
-Thanks to fellow students in the slack chanel who read me, and specially A-Hoenig, who shared me their project when i was lost [here](https://github.com/A-Hoenig/student-AI)
+
+Thanks to fellow students in the slack chanel who read me, and specially A-Hoenig, who shared me their project when i was lost [here](https://github.com/A-Hoenig/student-AI) and  [here](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector?tab=readme-ov-file)
 
 
 ---
@@ -343,7 +344,6 @@ Thanks to fellow students in the slack chanel who read me, and specially A-Hoeni
 
 - The template used was from Code Institute learning material
 - Cover image was obtained freely from [here](https://www.vecteezy.com/photo/17725783-closeup-of-wild-himalayan-cherry-flower-at-park)
-
 
 ---
 ## Acknowledgements:
@@ -380,3 +380,6 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [Model Performance](https://www.linkedin.com/advice/3/how-can-you-improve-neural-network-performance-xkrxe#:~:text=Adjusting%20the%20number%20of%20epochs%20in%20a%20neural%20network%20training,the%20right%20balance%20is%20crucial.)
 * [Loss and Acurracy](https://www.baeldung.com/cs/ml-loss-accuracy)
 * [Learning Curve](https://www.baeldung.com/cs/learning-curve-ml)
+* [Activation Functions](https://wandb.ai/shweta/Activation%20Functions/reports/Activation-Functions-Compared-With-Experiments--VmlldzoxMDQwOTQ)
+* [Back Propagation](https://towardsdatascience.com/backpropagation-in-fully-convolutional-networks-fcns-1a13b75fb56a#:~:text=Backpropagation%20is%20one%20of%20the,respond%20properly%20to%20future%20urges.)
+* [Learning Curves](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)

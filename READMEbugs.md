@@ -6,6 +6,8 @@
 
 ##### 1
 
+##### Mixed labels
+
 ![Backwards](assets/images/bugsandfixes/modelpredictingbackwards.png)
 
 After adjusting the label for the 'fungal-infected' class, the model consistently provided correct predictions when new data was input. This issue was resolved by modifying the key indexes in the predictive_analysis.py file. Specifically, the change involved swapping the positions of the 0 and 1 indexes.
