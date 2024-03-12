@@ -91,7 +91,7 @@ The model's output will consist of a binary flag indicating the presence or abse
 
 Currently, the manual diagnostic process is time-consuming, with employees spending up to 30 minutes per plant to identify signs of infestation. Additionally, applying treatment to infected leaves consumes an additional minute. Human error in visual criteria assessment further adds to the risk of inaccurate diagnostics. With thousands of cherry trees spread across multiple farms, scalability becomes a significant concern.
 
-The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as the foundation for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/datasets/codeinstitute/cherry-leaves] contains over 4,000 images, with a subset of XXX images selected for expedited model training.
+The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as the foundation for model training and evaluation. This dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves) contains over 4,000 images, with a subset of XXX images selected for expedited model training.
 
 Train data: Target - infected or not; Features - all leaf images.
 
@@ -203,7 +203,7 @@ Currently, manual inspection of each tree requires approximately 30 minutes, wit
   * Predict whether a cherry tree is healthy or afflicted with powdery mildew.
 
 #### Project Dataset:
-The dataset, comprising cherry leaf images provided by Farmy & Foods, forms the basis for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves], consists of over 4,000 images, with a subset of XXX images chosen for expedited model training.
+The dataset, comprising cherry leaf images provided by Farmy & Foods, forms the basis for model training and evaluation. This dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves), consists of over 4,000 images, with a subset of XXX images chosen for expedited model training.
 
 Additional Information:
 For further details, refer to the following sources:
@@ -322,6 +322,9 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 * [Seaborn](https://seaborn.pydata.org/index.html) - Statistical data visualisation 
 * [TensorFlow](https://www.tensorflow.org/about) n- ML models 
 * [Scikitlearn](https://scikit-learn.org/stable/about.html) - Machine learning in python
+
+### Dataset was obtained from 
+* [Kaggle](https://www.kaggle.com/docs)- Kaggle free datasets
 
 ### Installed Packages: 
 * numpy==1.19.2
