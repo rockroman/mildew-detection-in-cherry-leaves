@@ -297,7 +297,7 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 * The application underwent iterative development and was continuously tested throughout its development process. 
 * All Python files underwent scrutiny using the CI linter Python checker.[CI](https://pep8ci.herokuapp.com/)
 * Deployed app was tested on browsers like GoogleCrome, Firefox and Safari without issues.
-* Minor bugs were fixed iteratively. Find more [Here](/READMEbugs.md)
+* Minor bugs were fixed iteratively. Find more infromation on bugs [here](/READMEbugs.md)
 * All known bugs have been addressed. However, an ongoing concern revolves around the continuous deprecation of machine learning (ML) packages.
 * Installing and maintaining the correct versions of ML packages has been challenging, as different versions often require compatibility adjustments. 
 
