@@ -27,11 +27,16 @@ Currently, manual inspection takes around 30 minutes per tree, with an additiona
 
 * Early Disease Detection: Early detection of mildew allows for timely treatment, preventing further spread and damage.
 
+### Bussines Understanding communication with client
+
+Find the interview with the client [here](READMEbusiness.md)
+
 ### Dataset Content
 
 Dataset was obtained from Kaggle. Subsequently,  a hypothetical user scenario was created to demonstrate the practical application of predictive analytics in a workplace project.
 
 The dataset comprises over 4,000 images captured from the client's crop fields. These images depict both healthy cherry leaves and leaves afflicted with powdery mildew, a fungal disease that poses a threat to numerous plant species. Given the cherry plantation's significance within their product portfolio, the company is deeply invested in ensuring the market receives products of uncompromised quality.
+Get dataset from [here](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)
 
 ---
 ## Business Requirements
@@ -86,7 +91,7 @@ The model's output will consist of a binary flag indicating the presence or abse
 
 Currently, the manual diagnostic process is time-consuming, with employees spending up to 30 minutes per plant to identify signs of infestation. Additionally, applying treatment to infected leaves consumes an additional minute. Human error in visual criteria assessment further adds to the risk of inaccurate diagnostics. With thousands of cherry trees spread across multiple farms, scalability becomes a significant concern.
 
-The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as the foundation for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/codeinstitute/cherry-leaves] contains over 4,000 images, with a subset of XXX images selected for expedited model training.
+The dataset, comprising cherry leaf images provided by Farmy & Foods, serves as the foundation for model training and evaluation. This dataset, sourced from Kaggle: [https://www.kaggle.com/datasets/codeinstitute/cherry-leaves] contains over 4,000 images, with a subset of XXX images selected for expedited model training.
 
 Train data: Target - infected or not; Features - all leaf images.
 
@@ -126,6 +131,8 @@ A well-fitting model exhibits the following characteristics:
 Preventive measures, including early stopping, were employed to mitigate the risks of overfitting or underfitting the model.
 
 ### Observations : 
+The number of epochs was adjusted to improve prediction accuracy.
+
 * Model trained with 25 Epochs: 
 ![25 Epochs](/assets/images/readmeimages/25epochs.png)
 * Model trained with 30 Epochs:
