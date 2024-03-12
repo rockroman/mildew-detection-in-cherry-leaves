@@ -34,7 +34,7 @@ def page_leaf_visualizer_body():
 
         st.image(av_powdery_mildew, caption='Fungal-infected leaf - Average Variability')
         st.image(av_healthy, caption='Healthy Leaf - Average and Variability')
-        st info(
+        st.info(
             f'**Mean:**\n\n'
             f'The mean, or average, is calculated as the sum of all observations divided by the total number '
             f'of observations. It provides a single value representing the central tendency of the data set.\n\n'
