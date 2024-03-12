@@ -7,7 +7,7 @@ def page_project_hypothesis_body():
     st.write('## Hypothesis and Validation')
     st.write('### Hypothesis:')
 
-    st.write(
+    st.info(
         f'Plants affected by fungal infestation, specifically powdery mildew,'
         f'exhibit distinct visual characteristics on their leaves, such as light-'
         f'grey or white powdery spots.\n'
