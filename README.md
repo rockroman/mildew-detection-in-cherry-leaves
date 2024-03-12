@@ -284,6 +284,8 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 * All Python files underwent scrutiny using the CI linter Python checker.[CI](https://pep8ci.herokuapp.com/)
 * Deployed app was tested on browsers like GoogleCrome, Firefox and Safari without issues.
 * Minor bugs were fixed iteratively. Find more [Here](/READMEbugs.md)
+* All known bugs have been addressed. However, an ongoing concern revolves around the continuous deprecation of machine learning (ML) packages.
+* Installing and maintaining the correct versions of ML packages has been challenging, as different versions often require compatibility adjustments. 
 
 ---
 ## Main Data Analysis and Machine Learning Libraries
@@ -328,11 +330,6 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 * keras==2.6.0
 * protobuf==3.20
 * altair<5
----
-
-## Unresolved Bugs 
-* All known bugs have been addressed. However, an ongoing concern revolves around the continuous deprecation of machine learning (ML) packages.
-* Installing and maintaining the correct versions of ML packages has been challenging, as different versions often require compatibility adjustments. 
 
 ---
 ## Credits 
