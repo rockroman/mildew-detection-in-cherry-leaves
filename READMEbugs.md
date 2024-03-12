@@ -39,4 +39,9 @@ After this minor adjustment, the model resumed accurate predictions each time an
 
 ![Load Model](assets/images/bugsandfixes/loadmodelgotanunexpectedargument.png)
 
+### Bugs left unfixed 
+
+Error 21 remained unresolved primarily due to a lack of understanding of the folder's location and its context.
+![Error21](assets/images/bugsandfixes/Error21isdirectory.png)
+
 
