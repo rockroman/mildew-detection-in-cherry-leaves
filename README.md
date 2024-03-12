@@ -336,7 +336,7 @@ reliably differentiate infected plants from healthy, uninfected ones.'
 
 All content used for the project came from the school material and some internet forums stated under *Reference* section.
 
-Thanks to fellow students in the slack chanel who read me, and specially A-Hoenig, who shared me their project when i was lost [here](https://github.com/A-Hoenig/student-AI) and  [here](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector?tab=readme-ov-file)
+Thanks to fellow students in the slack chanel who read me, and specially A-Hoenig, who shared me their project when i was lost [here](https://github.com/A-Hoenig/student-AI) and [here](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector?tab=readme-ov-file).
 
 
 ---
