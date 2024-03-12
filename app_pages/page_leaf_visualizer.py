@@ -34,6 +34,18 @@ def page_leaf_visualizer_body():
 
         st.image(av_powdery_mildew, caption='Fungal-infected leaf - Average Variability')
         st.image(av_healthy, caption='Healthy Leaf - Average and Variability')
+        st info(
+            f'**Mean:**\n\n'
+            f'The mean, or average, is calculated as the sum of all observations divided by the total number '
+            f'of observations. It provides a single value representing the central tendency of the data set.\n\n'
+
+            f'**Standard Deviation (SD):**\n\n'
+            f'The standard deviation measures the spread of values around the sample mean. It helps understand the '
+            f'variability within the sample.\n\n'
+            f'Descriptive statistics, including measures of central tendency and dispersion, are vital for summarizing '
+            f'the sample. The *mean* indicates the average value, while the *standard deviation* represents the scatter '
+            f'of values around the mean. Reporting both provides a comprehensive overview of the sample.'
+        )
         st.write('---')
 
     if st.checkbox('Differences between average fungal-infected and healthy leaves'):
