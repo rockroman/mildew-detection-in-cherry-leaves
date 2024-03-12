@@ -73,10 +73,17 @@ Image montage shows the diference between healthy and fungal-infected leaves
 ![healthy](/assets/images/readmeimages/healthyimagemontage.png)
 ![fungal-infected](/assets/images/readmeimages/fungalinfectedimagemontage.png)
 
-The difference between average and variability images shows that fungal-infected leaves have more blurry white lines in the center.
+#### Difference between average (mean) and variability (SD) images shows that fungal-infected leaves have more blurry white lines in the center.
 
 ![Average Fungal-infected](assets/images/readmeimages/avrimagecomparisonfungalinfected.png)
 ![Average Healthy](assets/images/readmeimages/averagevarhealthy.png)
+
+**Mean:**
+The mean, or average, represents the sum of all observations divided by the total number of observations. It serves as a single value to describe the central tendency of the data set. In statistical analyses, the mean is commonly used as a standard measure of the data distribution's center. Both the mean and the median are indicators of central tendency.
+
+**Standard Deviation (SD):**
+The standard deviation is a descriptive statistic that estimates the spread of values around the sample mean. It provides insight into the variability within the sample. Descriptive statistics are essential for describing the sample in research reports, as they enable generalization to similar populations. For quantitative variables, measures of central tendency (mean, median, mode) and measures of dispersion (range, standard deviation, interquartile range) are reported. The mean indicates the average value, while the standard deviation represents the average scatter of values around the mean. Together with the range, these statistics offer a comprehensive understanding of the sample. When describing the sample, it is crucial to report the standard deviation as a measure of dispersion alongside the mean.
+
 
 The difference between  average fungal-infected and average healty shows slight difference in texture and white blurry lines over the leaf.
 ![Healthy vs Infected](assets/images/readmeimages/avdiferencebetweenboth.png)
@@ -393,3 +400,6 @@ Gratitude to myself for persevering and learning almost independently, with guid
 * [Activation Functions](https://wandb.ai/shweta/Activation%20Functions/reports/Activation-Functions-Compared-With-Experiments--VmlldzoxMDQwOTQ)
 * [Back Propagation](https://towardsdatascience.com/backpropagation-in-fully-convolutional-networks-fcns-1a13b75fb56a#:~:text=Backpropagation%20is%20one%20of%20the,respond%20properly%20to%20future%20urges.)
 * [Learning Curves](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)
+* [Mean and SD](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7746895/#:~:text=Thus%2C%20the%20mean%20tells%20us,mental%20picture%20of%20the%20sample.)
+* [Mean](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/anova/supporting-topics/basics/understanding-analysis-of-means/)
+* [Mean](https://www.theanalysisfactor.com/analysis-of-means-2/)
