@@ -20,6 +20,10 @@ def page_ml_performance_metrics():
         f'* Validation Set: comprises 20% of the data. \n'
     )
     st.write(
+        f"* Image size for the ML model is the average from all images in 'Trainset'\n\n"
+        f'                       (160, 160, 3)      '
+    )
+    st.write(
         f"Labels were divided in : *'healthy'* and *'fungal-infected*"
 
     )
