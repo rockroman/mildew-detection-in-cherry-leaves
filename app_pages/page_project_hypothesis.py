@@ -11,8 +11,6 @@ def page_project_hypothesis_body():
         f'Plants affected by fungal infestation, specifically powdery mildew,'
         f'exhibit distinct visual characteristics on their leaves, such as light-'
         f'grey or white powdery spots.\n'
-        f'By conducting an average image study, we aim to investigate whether these '
-        f'visual markers reliably differentiate infected plants from healthy, uninfected ones.'
         )
 
     st.success(
