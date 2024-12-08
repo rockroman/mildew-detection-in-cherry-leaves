@@ -36,8 +36,10 @@ def page_summary_body():
 
     # Define the paths to the images
     image_paths = [
-        'inputs/cherry-leaves_dataset/cherry-leaves/healthy/00a8e886-d172-4261-85e2-780b3c50ad4d___JR_HL 4156.JPG',
-        'inputs/cherry-leaves_dataset/cherry-leaves/fungal-infected/0a283423-3a6d-43a4-92e5-267c8153ca45___FREC_Pwd.M 4921_flipLR.JPG'
+        'outputs/v1/0a273dc4-db45-4936-aee3-59919e1df44f___JR_HL 9805.JPG',
+        'outputs/v1/0ac12d2d-a98c-4e25-b715-94e7579a98f1___FREC_Pwd.M 4887.JPG'
+        # 'inputs/cherry-leaves_dataset/cherry-leaves/healthy/00a8e886-d172-4261-85e2-780b3c50ad4d___JR_HL 4156.JPG',
+        # 'inputs/cherry-leaves_dataset/cherry-leaves/fungal-infected/0a283423-3a6d-43a4-92e5-267c8153ca45___FREC_Pwd.M 4921_flipLR.JPG'
     ]
 
     # Define the captions for the images
