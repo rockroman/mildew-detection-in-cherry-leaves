@@ -4,3 +4,15 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    ports:
+      - "8888:8888"  # Expose Jupyter Notebook port
+    volumes:
+      - .:/workspace  # Mount current directory to /workspace in container
+    environment:
+      - JUPYTER_ENABLE_LAB=yes  # Enable JupyterLab interface
+    command: >
+      bash -c "
+        pip install ipykernel &&
+        python -m ipykernel install --user --name python3.12 --display-name 'Python 3.12' &&
+        jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
+      "
