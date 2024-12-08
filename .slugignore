@@ -8,12 +8,8 @@
 *.pdf
 *.zip
 README.md
-/inputs/cherry_leaves/cherry-leaves/train/*
+/inputs/*
 /documentation
-/inputs/cherry_leaves/cherry-leaves/test/*
-/inputs/cherry_leaves/cherry-leaves/healthy
-/inputs/cherry_leaves/cherry-leaves/fungal-infected
-/inputs/cherry-leaves_dataset/cherry-leaves/test
-/inputs/cherry-leaves_dataset/cherry-leaves/train
+
 READMEbugs.md
 /assets/images
