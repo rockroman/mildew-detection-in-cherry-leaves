@@ -28,6 +28,10 @@ RUN set -ex \
     && python3 -m pip install --no-cache-dir --upgrade pip \
     && python3 -m pip install --no-cache-dir --upgrade setuptools wheel virtualenv pipenv pylint rope flake8  mypy autopep8 pep8 pylama pydocstyle bandit notebook twine jupyter
 
+# Add these lines to ensure Jupyter and its dependencies are properly installed
+RUN python3 -m pip install --no-cache-dir jupyter ipykernel
+RUN python3 -m ipykernel install --user --name python3.12 --display-name "Python 3.12"
+
 ENV PATH=$PATH:"/home/codeany/.local/bin"
 
 RUN echo 'alias python=python3' >> ~/.bashrc && \
