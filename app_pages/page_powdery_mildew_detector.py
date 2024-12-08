@@ -44,8 +44,10 @@ def page_powdery_mildew_detector_body():
             plot_predictions_probabilities(pred_proba, pred_class)
 
             #Create a report with the predictions  and display the results in a table
-            df_report = df_report.append({'Name': image.name, "Result": pred_class},
-                                        ignore_index=True)
+            # df_report = df_report.append({'Name': image.name, "Result": pred_class},
+            #                             ignore_index=True)
+            new_row = pd.DataFrame({'Name': [image.name], "Result": [pred_class]})
+            df_report = pd.concat([df_report, new_row], ignore_index=True)
 
         if not df_report.empty:
             st.success('Analysis Report ')
