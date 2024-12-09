@@ -8,13 +8,13 @@
 *.pdf
 *.zip
 README.md
-/inputs/cherry_leaves/cherry-leaves/train/*
+
 /documentation
-/inputs/cherry_leaves/cherry-leaves/test/*
-/inputs/cherry_leaves/cherry-leaves/healthy/*
-/inputs/cherry_leaves/cherry-leaves/fungal-infected/*
 /inputs/cherry-leaves_dataset/cherry-leaves/test/*
 /inputs/cherry-leaves_dataset/cherry-leaves/train/*
+/inputs/cherry-leaves_dataset/cherry-leaves/fungal-infected/*
+/inputs/cherry-leaves_dataset/cherry-leaves/healthy/*
+/inputs/cherry-leaves_dataset/cherry-leaves/powdery_mildew/*
 
 READMEbugs.md
 /assets/images
